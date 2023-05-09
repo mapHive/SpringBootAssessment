@@ -1,0 +1,30 @@
+body {
+    background-color: pink
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid white;
+    margin-bottom: 20px;
+    width: 80%;
+    margin-left: 10px;
+}
+
+td, tr {
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+  background-color: #D3D3D3;
+}
+
+th {
+  padding: 12px;
+  background-color: grey;
+  color: white;
+}
+
